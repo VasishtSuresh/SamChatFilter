@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Sam's chat filter",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://widget-b.flyzoo.co/chatrooms/chatroom?xto=https%3A%2F%2Fsmartertrading411.com%2Fchat%2F&url=https%3A%2F%2Fsmartertrading411.com%2Fchat%2F&idWebsite=5c0b1ec44fb4d50db40b12f3&mode=popup&id=5c0b1ec74fb4d50db40b12f8&mobile=false&rt=false&gcn=null&fzla=en&rnd=*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action" :{
+          "default_popup": "popup.html"
+  }
+}
